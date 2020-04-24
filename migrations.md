@@ -1,6 +1,6 @@
 ## Add Migration
 
-Add-Migration -Name NameOfTheMigration -Context NameOfTheContext -Project ProjectWithContext -StartupProject ProjectWhereContextIsRegisteredInDIContainer -Verbose
+**Add-Migration** **-Name** NameOfTheMigration **-Context** NameOfTheContext **-Project** ProjectWithContext **-StartupProject** ProjectWhereContextIsRegisteredInDIContainer **-Verbose**
 
 *Help*
 
