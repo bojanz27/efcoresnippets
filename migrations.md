@@ -2,20 +2,16 @@
 
 **Add-Migration** **-Name** NameOfTheMigration **-Context** NameOfTheContext **-Project** ProjectWithContext **-StartupProject** ProjectWhereContextIsRegisteredInDIContainer **-Verbose**
 
-[*Help*] Get-Help Add-Migration -detailed
+*Help Get-Help Add-Migration -detailed
 
 ## Remove Migration
 
 **Remove-Migration** **-Context** NameOfTheContext **-Project** ProjectWithContext **-StartupProject** ProjectWhereContextIsRegisteredInDIContainer **-Verbose**
 
-*Help*
-
-Get-Help Remove-Migration -detailed
+*Get-Help Remove-Migration -detailed
 
 ## Script Migration
 
 **Script-Migration** **-From** FromMigrationNotIncluded **-Idempotent** **-Context** NameOfTheContext **-Project** ProjectWithContext **-StartupProject** ProjectWhereContextIsRegisteredInDIContainer -Verbose
 
-*Help*
-
-Get-Help Script-Migration -detailed
+*Get-Help Script-Migration -detailed
