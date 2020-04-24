@@ -12,5 +12,12 @@ Remove-Migration -Context NameOfTheContext -Project ProjectWithContext -StartupP
 
 *Help*
 
-Get-Help Add-Migration -detailed
+Get-Help Remove-Migration -detailed
 
+## Script Migration
+
+Script-Migration -From FromMigrationNotIncluded -Idempotent -Context NameOfTheContext -Project ProjectWithContext -StartupProject ProjectWhereContextIsRegisteredInDIContainer -Verbose
+
+*Help*
+
+Get-Help Script-Migration -detailed
