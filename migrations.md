@@ -2,9 +2,7 @@
 
 **Add-Migration** **-Name** NameOfTheMigration **-Context** NameOfTheContext **-Project** ProjectWithContext **-StartupProject** ProjectWhereContextIsRegisteredInDIContainer **-Verbose**
 
-*Help*
-
-Get-Help Add-Migration -detailed
+[*Help*] Get-Help Add-Migration -detailed
 
 ## Remove Migration
 
